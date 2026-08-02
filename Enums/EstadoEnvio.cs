@@ -4,15 +4,14 @@ using System.Text;
 
 namespace LogiTrack.Enums
 {
-    public class EstadoEnvio
+    public enum EstadoEnvio
     {
-        enum estadoEnvio 
-        { 
-         enEspera = 1,
-         enTransito = 2,
-         entregado = 3,
-         devuelto = 4,
-        }
+        
+         enEspera,
+         enTransito,
+         entregado,
+         devuelto,
+        
 
     }
 }
