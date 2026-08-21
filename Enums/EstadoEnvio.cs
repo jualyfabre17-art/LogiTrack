@@ -13,5 +13,5 @@ namespace LogiTrack.Enums
          devuelto,
         
 
-    }
+    
 }

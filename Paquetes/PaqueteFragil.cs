@@ -6,11 +6,11 @@ using LogiTrack.Interfaces;
 
 namespace LogiTrack.Paquetes
 {
-    internal class PaqueteFragil: Paquete, IAsegurable
+    public class PaqueteFragil: Paquete, IAsegurable
     {
         private double valorDeclarado;
 
-        PaqueteFragil( string codigo, string remitente, string destinatario, double pesoKg, EstadoEnvio estado, double valorDeclarado) : base( codigo, remitente, destinatario, pesoKg, estado) 
+        public PaqueteFragil( string codigo, string remitente, string destinatario, double pesoKg, EstadoEnvio estado, double valorDeclarado) : base( codigo, remitente, destinatario, pesoKg, estado) 
         { 
         }
     
@@ -31,7 +31,7 @@ namespace LogiTrack.Paquetes
 
         public override void MostrarInfo()
         {
-            Console.WriteLine("Paquete Standard");
+            Console.WriteLine("~Paquete Standard~");
             base.MostrarInfo();
         }
     

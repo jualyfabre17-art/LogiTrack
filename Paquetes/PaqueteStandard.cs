@@ -9,7 +9,7 @@ namespace LogiTrack.Paquetes
 
     public class PaqueteStandard : Paquete
     {
-        PaqueteStandard(string codigo, string remitente, string destinatario, double pesoKg, EstadoEnvio estado ) : base(codigo, remitente, destinatario, pesoKg, estado)
+        public PaqueteStandard(string codigo, string remitente, string destinatario, double pesoKg, EstadoEnvio estado ) : base(codigo, remitente, destinatario, pesoKg, estado)
         {
             
         }
@@ -17,7 +17,7 @@ namespace LogiTrack.Paquetes
 
         public override void MostrarInfo()
         {
-            Console.WriteLine("Paquete Standard");
+            Console.WriteLine("~Paquete Standard~");
             base.MostrarInfo();
         }
 

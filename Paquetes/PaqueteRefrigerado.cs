@@ -11,7 +11,7 @@ namespace LogiTrack.Paquetes
         private double temperatuRequerida;
         private double valorDeclarado;
 
-         PaqueteRefrigerado(string codigo, string remitente, string destinatario, double pesoKg, EstadoEnvio estado, double temperaturaRequerida, double valorDeclarado) : base(codigo, remitente, destinatario, pesoKg, estado) 
+        public PaqueteRefrigerado(string codigo, string remitente, string destinatario, double pesoKg, EstadoEnvio estado, double temperaturaRequerida, double valorDeclarado) : base(codigo, remitente, destinatario, pesoKg, estado) 
         {
         }
 
@@ -32,7 +32,7 @@ namespace LogiTrack.Paquetes
 
         public override void MostrarInfo()
         {
-            Console.WriteLine(" Paquete Refrigerado");
+            Console.WriteLine("~Paquete Refrigerado~");
             base.MostrarInfo();
         }
 
