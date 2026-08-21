@@ -6,7 +6,7 @@ namespace LogiTrack.Interfaces
 {
     public interface IAsegurable
     {
-        public double GuardarSeguro();
+        public double CalcularSeguro();
         public string ObtenerPoliza();
 
     }

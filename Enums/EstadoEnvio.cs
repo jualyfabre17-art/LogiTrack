@@ -4,9 +4,8 @@ using System.Text;
 
 namespace LogiTrack.Enums
 {
-    public class EstadoEnvio
-    {
-        enum estadoEnvio 
+    
+        public enum EstadoEnvio 
         { 
          enEspera = 1,
          enTransito = 2,
@@ -14,5 +13,5 @@ namespace LogiTrack.Enums
          devuelto = 4,
         }
 
-    }
+    
 }
