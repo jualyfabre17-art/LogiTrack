@@ -6,12 +6,12 @@ namespace LogiTrack.Enums
 {
     public enum EstadoEnvio
     {
-        
-         enEspera,
-         enTransito,
-         entregado,
-         devuelto,
-        
 
-    
+        enEspera,
+        enTransito,
+        entregado,
+        devuelto,
+
+
+    }
 }
