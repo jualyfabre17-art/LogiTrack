@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using LogiTrack.Vehiculos;
 
-namespace LogiTrack.Conductor
+namespace LogiTrack.Conductors
 {
     public abstract class Conductor
     {
