@@ -5,7 +5,7 @@ using LogiTrack.Paquetes;
 using LogiTrack.Conductors;
 using LogiTrack.Interfaces;
 
-namespace LogiTrack.Envio
+namespace LogiTrack.Envios
 {
     public class Envio
     {
