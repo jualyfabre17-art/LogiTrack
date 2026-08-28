@@ -7,7 +7,7 @@ using LogiTrack.Conductors;
 using LogiTrack.Enums;
 using LogiTrack.Interfaces;
 
-namespace LogiTrack.GestorEnvios
+namespace LogiTrack.GestorEnvioss
 {
     public class GestorEnvios
     {
