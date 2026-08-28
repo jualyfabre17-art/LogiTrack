@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Text;
 using LogiTrack.Conductors;
 
-namespace LogiTrack.GestorConductores
+namespace LogiTrack.GestorConductoress
 {
     public class GestorConductores
     {

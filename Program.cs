@@ -1,10 +1,12 @@
-﻿using LogiTrack.Conductors;
-using LogiTrack.Envios;
+﻿using LogiTrack.GestorConductoress;
+using LogiTrack.GestorEnvioss;
 using LogiTrack.Paquetes;
 
 namespace LogiTrack { 
     class Program {
-    static void Main (){
+        static GestorEnvios gestorEnvios = new GestorEnvios();
+        static GestorConductores gestorConductores = new GestorConductores();
+        static void Main (){
              
         }
     }
