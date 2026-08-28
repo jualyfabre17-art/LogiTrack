@@ -5,6 +5,7 @@ using LogiTrack.Envios;
 using LogiTrack.Paquetes;
 using LogiTrack.Conductors;
 using LogiTrack.Enums;
+using LogiTrack.Interfaces;
 
 namespace LogiTrack.GestorEnvios
 {
@@ -73,5 +74,16 @@ namespace LogiTrack.GestorEnvios
             return total;
         }
         
+        public void MostrarPolizasActivas()
+        {
+            foreach(var envio in envios)
+            {
+                if(envio.Paquete is IAsegurable asegurable)
+                {
+                    Console.WriteLine($"{envio.CodigoEnvio} {asegurable.ObtenerPoliza()} {asegurable.CalcularSeguro()}");
+                    
+                }
+            }
+        }
     }
 }
