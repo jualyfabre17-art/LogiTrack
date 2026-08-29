@@ -5,16 +5,17 @@ using LogiTrack.Vehiculos;
 
 namespace LogiTrack.Conductors
 {
-    public abstract class Conductor
+    public class Conductor
     {
         public string Nombre { get; private set; }
         public string Licencia { get; private set; }
         public Vehiculo? VehiculoAsignado { get; private set; } = null;
 
-        public Conductor(string Nombre, string Licencia)
+        public Conductor(string Nombre, string Licencia, Vehiculo VehiculoAsignado)
         {
             this.Nombre = Nombre;
             this.Licencia = Licencia;
+            this.VehiculoAsignado = VehiculoAsignado;
         }
 
         public void AsignarVehiculo(Vehiculo? vehiculo) 
