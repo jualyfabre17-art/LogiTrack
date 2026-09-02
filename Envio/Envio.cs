@@ -30,7 +30,7 @@ namespace LogiTrack.Envios
 
             if(Paquete is IAsegurable asegurable)
                 return Costo = asegurable.CalcularSeguro() + Paquete.CalcularCosto();
-            return CalcularCostoTotal();
+            return Costo;
         
         }
 
